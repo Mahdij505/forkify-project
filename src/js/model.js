@@ -115,7 +115,9 @@ const init = function () {
 };
 
 init();
-
+/**
+ * This function clears all bookmarks
+ */
 const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
